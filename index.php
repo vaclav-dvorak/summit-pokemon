@@ -17,7 +17,7 @@ $cards = array (
     ),
     'Pidgey' => array(
         'type' => 'NOR',
-        'http' => 'Normal	http://pokemondb.net/pokedex/pidgey',
+        'http' => 'http://pokemondb.net/pokedex/pidgey',
     ),
     'Pikachu' => array(
         'type' => 'ELE',
