@@ -54,11 +54,6 @@ $elements = array (
     'POI' => '#a040a0',
 );
 
-/*
- * Function for calculating contrast difference of background and foreground
- * more info: http://24ways.org/2010/calculating-color-contrast/
- */
-
 function getImgSrc($url) {
     $path = parse_url($url, PHP_URL_PATH);
     $pathFragments = explode('/', $path);
