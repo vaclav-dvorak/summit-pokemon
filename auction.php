@@ -132,7 +132,7 @@ $materials = [
                 span.parentNode.classList.add(color);
             });
         });
-        inter = setInterval(updatePrice, 1000);
+        inter = setInterval(updatePrice, 60000);
     }
     updatePrice();
 </script>
